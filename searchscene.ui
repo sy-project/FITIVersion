@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchScene</class>
+ <widget class="QDialog" name="SearchScene">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1080</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btBack">
+   <property name="geometry">
+    <rect>
+     <x>1810</x>
+     <y>14</y>
+     <width>34</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btSearch">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>958</y>
+     <width>299</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btCalStart">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>875</y>
+     <width>299</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btCalEnd">
+   <property name="geometry">
+    <rect>
+     <x>563</x>
+     <y>875</y>
+     <width>299</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckAmTemp">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>880</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ambient Temp</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckTgTemp">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>910</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Target Temp</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckAmHumid">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>940</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ambient Humid</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckTgHumid">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>970</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Target Humid</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckPreLamp">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>1000</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Lamp Preset</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckDO1">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>880</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D/O #1</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckDO2">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>910</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D/O #2</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckDO3">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>940</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D/O #3</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckDO4">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>970</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D/O #4</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ckDO5">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>1000</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D/O #5</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btExcel">
+   <property name="geometry">
+    <rect>
+     <x>1519</x>
+     <y>829</y>
+     <width>136</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btPicture">
+   <property name="geometry">
+    <rect>
+     <x>1692</x>
+     <y>829</y>
+     <width>136</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QChartViewer" name="graph" native="true">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>127</y>
+     <width>1722</width>
+     <height>531</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QViewPortControl" name="viewport" native="true">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>666</y>
+     <width>1722</width>
+     <height>120</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartViewer</class>
+   <extends>QWidget</extends>
+   <header>qchartviewer.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QViewPortControl</class>
+   <extends>QWidget</extends>
+   <header>qchartviewer.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
